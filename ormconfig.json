@@ -1,0 +1,11 @@
+{
+    "type": "oracle",
+    "host": "localhost",
+    "port": 1521,
+    "username": "your_username",
+    "password": "your_password",
+    "sid": "your_sid",   // e.g., XE or ORCL
+    "entities": ["src/entity/**/*.ts"],
+    "synchronize": true
+  }
+  
